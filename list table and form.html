@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>html list</title>
+    <STYle>body{background-color: aqua;}</STYle>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    
+</head>
+
+<body><H1>TYPES OF LIST</H1>
+    <H2>unorder list</H2>
+    <ul type="circle">
+        <li>home</li>
+        <li>about</li>
+        <li>preferences</li>
+        <li>services</li>
+    </ul>
+
+    <H2>orderlist</H2>
+    <ol type="i">
+        <li>home</li>
+        <li>about</li>
+        <li>preferences</li>
+        <li>services</li>
+    </ol>
+
+    <!-- this is a TABLE TAG -->
+    <h1>TABLE OF DIFFERENT PLAYERS</h1>
+    <table>
+        <ol>
+            <caption>
+                max score by different player
+            </caption>
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>name</th>
+                    <th colspan="2">MAX SCORE</th>
+                    <!-- <th>GAME</th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>SACHIN</td>
+                    <td>150</td>
+                    <td>CRICKET</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>RAHUL</td>
+                    <td>120</td>
+                    <td>BADMINTON</td>
+                </tr>
+            </tbody>
+        </ol>
+    </table>
+    <br />
+    <!-- forms html  -->
+    <h1>TRAVEL FORM FOR TRIP</h1>
+    <div>
+        <form action="index.html">
+            <input type="text" placeholder="select your section" />
+            <label for="sectionida"><br>
+            <input type="radio" value="section a" name="section" id="sectionida" />section a </label><br>
+            <label for="sectionidb">
+            <input type="radio"  value="section b" name="section" id="sectionidb" />section b </label><br>
+            <label for="sectionidc">
+            <input type="radio"  value="section c" name="section" id="sectionidc" class="blue " />section c </label>
+            <br><br>
+           <h1>TRANSPORTATION</h1>
+            <select name="car" id="car">
+
+                <option value="no car">select your car</option>
+                <option value="omni">omni1</option>
+                <option value="omni2">omni2</option>
+                <option value="i10">i10</option>
+                <option value="i20">i20</option>
+                <option value="desire">desire</option>
+                <option value="brezza">brezza</option>
+
+            </select>
+            <H2>CANTEEN CARD HOLDER</H2>
+            <label for="Foodcanteen1">
+            <input type="checkbox" input name="canteen" id="Foodcanteen1" class="red">YES</label><br>
+            <label for="Foodcanteen2">
+            <input type="checkbox" name="canteen" id="Foodcanteen2" class="red blue" >NO</label><br>
+            <h1>REASON OF GOING</h1>
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="explain why do you want to join"></textarea>
+        </form>
+    </div>
+</body>
+
+</html>
